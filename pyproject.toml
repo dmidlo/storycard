@@ -1,0 +1,21 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "storycard"
+version = "0.1.0"
+description = "A CLI tool for Agile Project Management focused on GitHub issues"
+authors = ["David Midlo dmidlo@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/yourname/storycard"
+keywords = ["agile", "project-management", "cli"]
+categories = ["Project Management", "Software Development"]
+
+[tool.poetry.dependencies]
+
+[tool.poetry.dev-dependencies]
+
+[tool.pytest.ini_options]
+
+[tool.poetry.scripts]

@@ -1,0 +1,38 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Directories that may contain temporary files or runtime data
+.cache/
+.DS_Store
+.vscode/
+
+# Package directories
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Environment files
+.env/
+venv/
+.venv/
+*.env
+.env
+
+# Sensitive files
+/config
+/scripts/scratch.py
+secrets.toml
+scratch.md
+prompts.md
+
+# Generated files
+storycard/
+*.cache/
+*.log
+
+# Testing outputs
+tests/output/
